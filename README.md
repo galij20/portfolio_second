@@ -1,2 +1,3 @@
 # portfolio_second
-portfolio_project_wap
+This is the Portfolio project repository for Web Application Programming. 
+Access this website at: 
