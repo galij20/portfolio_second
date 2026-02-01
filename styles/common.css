@@ -1,0 +1,27 @@
+.section {
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.section_title {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.section_subtitle {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
