@@ -1,0 +1,85 @@
+.about__description {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: normal;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about__description:last-of-type {
+  margin-bottom: 40px;
+}
+
+.about_box {
+  color: #fff;
+  border-bottom: 2px solid #2c98f0;
+  padding: 24px;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  margin-bottom: 50px;
+}
+
+.about_box > i {
+  margin-bottom: 20px;
+  color: #2c98f0;
+  font-size: 30px;
+}
+
+.about_box > h3 {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.about_box:nth-child(2) {
+  border-color: #ec5453;
+}
+
+.about_box:nth-child(2) > i {
+  color: #ec5453;
+}
+
+.about_box:nth-child(3) {
+  border-color: #f9bf3f;
+}
+
+.about_box:nth-child(3) > i {
+  color: #f9bf3f;
+}
+
+.about_box:last-child {
+  border-color: #a84cb8;
+}
+
+.about_box:last-child > i {
+  color: #a84cb8;
+}
+
+.about_happy {
+  padding: 30px;
+  background: #4caed4;
+}
+
+.about_happy > h2 {
+  font-family: "Poppins", serif;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.about_happy > button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  padding: 2px 10px;
+  background: transparent;
+}
