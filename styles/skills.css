@@ -1,0 +1,85 @@
+#skills>p {
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    line-height: 1.8;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill>span {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 8px;
+    color: black;
+    font-weight: normal;
+    display: block;
+}
+
+.skill_percent_box {
+    background: #f2f3f7;
+    border-radius: 8px;
+}
+
+.skill_percent {
+
+    height: 6px;
+    background: #2c98f0;
+    border-radius: 8px;
+    position: relative;
+    color: #2c98f0;
+}
+
+#rust {
+    width: 70%;
+    background: rgb(194, 65, 65);
+    color: rgb(194, 65, 65);
+}
+
+#latex {
+    width: 60%;
+}
+
+#html {
+    width: 50%;
+    background: rgb(76, 143, 70);
+    color: rgb(76, 143, 70);
+}
+
+#js {
+    width: 40%;
+    background: silver;
+    color: silver;
+}
+
+#css {
+    width: 40%;
+    background: orangered;
+    color: orangered;
+}
+
+
+.skill_percent::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.skill_percent>span {
+    position: absolute;
+    top: -22px;
+    right: 0;
+    color: inherit;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 600;
+}
