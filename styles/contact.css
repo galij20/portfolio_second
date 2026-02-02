@@ -1,0 +1,33 @@
+.contact_input,
+.contact_textarea {
+    height: 50px;
+    width: 100%;
+    font-family: "Ubuntu", serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    background-color: #f2f3f7;
+    border: none;
+    outline: none;
+}
+
+.contact_textarea {
+    resize: vertical;
+    height: 130px;
+}
+
+.contact_button {
+    cursor: pointer;
+    background: #2c98f0;
+    color: #fff;
+    margin-bottom: 100px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 8px 15px;
+    border: none;
+}
