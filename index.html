@@ -20,10 +20,41 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/life-status.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
 
 </head>
 
 <body>
+    <nav class="sidebar">
+        <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
+
+        <div class="sidebar_content">
+
+            <img class="sidebar_image" src="images/pfp.jpg" height="200px" alt="Profile Image">
+            <h1 class="sidebar_name">Galij Sunuwar</h1>
+            <h2 class="sidebar_job">Developer <span>in Nepal</span></h2>
+
+            <ul class="sidebar_list">
+                <li class="sidebar_list_item">
+                    <a href="#hero">home</a>
+                </li>
+                <li class="sidebar_list_item">
+                    <a href="#about">about</a>
+                </li>
+                <li class="sidebar_list_item">
+                    <a href="#skills">skills</a>
+                </li>
+                <li class="sidebar_list_item">
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+            <p class="sidebar_copyright">
+                &copy; 2026 All rights reserved <br> Made with &#128520; by
+                <span>Galij</span>
+            </p>
+        </div>
+    </nav>
     <section id="hero">
         <h1 class="hero_job">
             Hi! <br>
@@ -45,7 +76,6 @@
         </p>
 
         <p class="about_description">
-            I am skilled in
         </p>
 
         <div class="about_skills">
@@ -60,10 +90,6 @@
             <div class="about_box">
                 <i class="fa-solid fa-ear-listen"></i>
                 <h3>Graphic Designing</h3>
-            </div>
-            <div class="about_box">
-                <i class=""></i>
-                <h3></h3>
             </div>
         </div>
 
@@ -153,5 +179,11 @@
         </form>
     </section>
 </body>
+<script>
+    const hamburger = document.getElementById("hamburger");
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("sidebar_hamburger_translate");
+    });
+</script>
 
 </html>
