@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/life-status.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
 </head>
 
@@ -138,6 +139,18 @@
             </div>
 
         </div>
+    </section>
+
+    <section id="contact" class="section">
+        <span class="section_title">Get in touch</span>
+        <h2 class="section_subtitle">Contact</h2>
+
+        <form action="" id="contactForm" class="contact_form" onsubmit="submitForm(event);">
+            <input type="text" placeholder="Name" id="name" name="name" class="contact_input">
+            <input type="email" placeholder="Email" id="email" name="email" class="contact_input">
+            <textarea id="message" class="contact_textarea" name="message" placeholder="Message" rows="5"></textarea>
+            <button class="contact_button" type="submit">Send Message</button>
+        </form>
     </section>
 </body>
 
