@@ -1,0 +1,46 @@
+#life_status {
+    background-image: url("../images/hokusai.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 15px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#life_status::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+#life_status>span {
+    display: block;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+#life_status> :nth-child(odd) {
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#life_status> :nth-child(even) {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
